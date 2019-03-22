@@ -15,6 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/adopcion', 'adopcionController');
-Route::get('/donacion', 'donacionController');
+//Route::get('/adopcion', 'adopcionController');
+//Route::get('/donacion', 'donacionController');
 
