@@ -7,6 +7,5 @@
   * 2.2.-composer install
   * 2.3.-npm install //(para que se ejecute esta línea de comando se requiere que esté instalado Node.js)
   * 2.4.-php artisan key:generate
-  * 2.5.-composer require maatwebsite/excel
-  * 2.6.-php artisan serve
-  * 2.7.-abrir explorador y ejecutar proyecto colocando localhost:8000 en barra de navegación //el puerto (8000) depende de cada uno
+  * 2.5.-php artisan serve
+  * 2.6.-abrir explorador y ejecutar proyecto colocando localhost:8000 en barra de navegación //el puerto (8000) depende de cada uno
