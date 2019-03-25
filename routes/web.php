@@ -12,9 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth.login');
 });
 
 //Route::get('/adopcion', 'adopcionController');
 //Route::get('/donacion', 'donacionController');
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
