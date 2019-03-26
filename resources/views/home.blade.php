@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    <a href="/adopcion">Adoptar</a>
                 </div>
             </div>
         </div>
