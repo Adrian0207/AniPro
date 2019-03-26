@@ -27,7 +27,7 @@ Route::post('/perros', 'adopcionController@index');
 Route::get('/perros/vista/{id}', 'adopcionController@viewPerro');
 Route::post('/gatos', 'adopcionController@index');
 Route::get('/gatos/vista/{id}', 'adopcionController@viewGato');
-
+Route::get('/donacion', 'donacionController@index');
 
 
 Auth::routes();

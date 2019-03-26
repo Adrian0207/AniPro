@@ -45,6 +45,7 @@
   }
 </style>
 <body>
+  <a href="/home"><button>Volver</button></a>
   <div class="im">
       <img src="../images/perros.png" width="200px" height="200px" alt="">
 
