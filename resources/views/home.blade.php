@@ -15,6 +15,7 @@
                     @endif
 
                     <a href="/adopcion">Adoptar</a>
+                    <a href="/donacion">Donación</a>
                 </div>
             </div>
         </div>
