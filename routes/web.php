@@ -19,6 +19,10 @@ Route::get('/adopcion', function () {
     return view('adopcion.adopcionIndex');
 });
 
+Route::get('/donacion', function () {
+    return view('donacion.donacion');
+});
+
 Route::post('/perros', 'adopcionController@index');
 Route::get('/perros/vista/{id}', 'adopcionController@viewPerro');
 Route::post('/gatos', 'adopcionController@index');
