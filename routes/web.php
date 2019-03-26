@@ -15,6 +15,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-//Route::get('/adopcion', 'adopcionController');
-//Route::get('/donacion', 'donacionController');
+Route::get('/adopcion', function () {
+    return view('adopcion.adopcionIndex');
+});
+
+Route::post('/perros', 'adopcionController@index');
+Route::get('/perros/vista/{id}', 'adopcionController@viewPerro');
+Route::post('/gatos', 'adopcionController@index');
+Route::get('/gatos/vista/{id}', 'adopcionController@viewGato');
+
 
