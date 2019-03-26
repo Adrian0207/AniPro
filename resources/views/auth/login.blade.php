@@ -1,4 +1,5 @@
 <style media="screen">
+
   .im{
     width: 300px;
     height: 100px;
@@ -18,12 +19,12 @@
 
 @section('content')
 <div class="im">
-    <img src="../images/logoA.jpeg" width="200px" height="200px" alt="">
+    <img src="../images/ani.png" width="200px" height="200px" alt="">
 </div>
 <div class="imT">
     <img src="../images/AnipT.png" width="400px" height="150px" alt="">
 </div>
-<div class="container">
+<div  class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
