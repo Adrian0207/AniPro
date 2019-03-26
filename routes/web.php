@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth.login');
 });
 
 Route::get('/adopcion', function () {
@@ -25,3 +25,7 @@ Route::post('/gatos', 'adopcionController@index');
 Route::get('/gatos/vista/{id}', 'adopcionController@viewGato');
 
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
