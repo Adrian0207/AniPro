@@ -1,6 +1,28 @@
+<style media="screen">
+
+  .im{
+    width: 300px;
+    height: 100px;
+    margin-left: 45%;
+
+  }
+  .imT{
+    width: 300px;
+    height: 100px;
+    margin-left: 39%;
+    margin-top: 90px;
+    margin-bottom: 50PX;
+  }
+</style>
 @extends('layouts.app')
 
 @section('content')
+<div class="im">
+    <img src="../images/ani.png" width="200px" height="200px" alt="">
+</div>
+<div class="imT">
+    <img src="../images/AnipT.png" width="400px" height="150px" alt="">
+</div>
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
