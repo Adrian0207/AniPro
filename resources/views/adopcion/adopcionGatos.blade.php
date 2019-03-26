@@ -7,6 +7,22 @@
     <title>Gatos</title>
 </head>
 <body>
-    
+    <table id="myTable">
+        <tr>
+            <th>Nombre</th>
+            <th>Raza</th>        
+            
+        </tr>
+        @foreach($gatos as $g)
+            <tr>
+                <td>{{$g->masnombre}}</td>
+                <td>{{$g->masraza}}</td>
+                <td><a href="gatos/vista/{{$g->mascodigo}}"><button>Ver</button></a></td>
+
+            </tr>
+        @endforeach
+
+        <a href="/adopcion"><button>Volver</button></a>
+    </table>
 </body>
 </html>

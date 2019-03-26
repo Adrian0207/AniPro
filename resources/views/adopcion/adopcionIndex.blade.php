@@ -7,14 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="/perros" method="get">
-        <input type="hidden" name="perro" value="perro">
+    <form action="/perros" method="post">
+        {{ csrf_field() }}
+        <input type="hidden" name="perro" value="TIP-3263">
         <button>Perros</button>
     </form>
     
-    <form action="/gatos" method="get">
-            <input type="hidden" name="gato" value="gato">
-            <button>Gatos</button>
+    <form action="/gatos" method="post">
+        {{ csrf_field() }}
+        <input type="hidden" name="gato" value="TIP-4098">
+        <button>Gatos</button>
     </form>
     
 </body>
