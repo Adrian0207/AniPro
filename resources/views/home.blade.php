@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Dashboard</div>
+                <div class="card-header">Menú</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -14,7 +14,8 @@
                         </div>
                     @endif
 
-                    <a href="/adopcion">Adoptar</a>
+                    <button type="button"><a href="/adopcion">Adopción</a></button>
+                    <button type="button"><a href="/donacion">Donación</a></button>
                 </div>
             </div>
         </div>
